@@ -1,19 +1,19 @@
 //
-//  ColorBlindViewerTests.m
-//  ColorBlindViewerTests
+//  Test.m
+//  VisionPreviewer
 //
-//  Created by Anton Legoo on 9/26/14.
+//  Created by Anton Legoo on 10/21/14.
 //  Copyright (c) 2014 Anton Legoo. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
-@interface ColorBlindViewerTests : XCTestCase
+@interface Test : XCTestCase
 
 @end
 
-@implementation ColorBlindViewerTests
+@implementation Test
 
 - (void)setUp {
     [super setUp];

@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E30708BA19D8DBB000A87C03 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30708B919D8DBB000A87C03 /* Quartz.framework */; };
+		E30708E619D9049F00A87C03 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30708E519D9049F00A87C03 /* CoreServices.framework */; };
+		E31739B119F9DA3C00615710 /* VPImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E31739B019F9DA3C00615710 /* VPImageScrollView.m */; };
+		E35A677219F71CFA00412A12 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = E35A677119F71CFA00412A12 /* Resources */; };
+		E35A677519F72BA600412A12 /* ScrollViewWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = E35A677419F72BA600412A12 /* ScrollViewWorkaround.m */; };
+		E3D4B0C019F718CF0077F8CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3D4B0AE19F718CF0077F8CC /* MainMenu.xib */; };
+		E3D4B0C119F718CF0077F8CC /* VPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4B0B119F718CF0077F8CC /* VPAppDelegate.m */; };
+		E3D4B0C219F718CF0077F8CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3D4B0B219F718CF0077F8CC /* Images.xcassets */; };
+		E3D4B0C419F718CF0077F8CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4B0B419F718CF0077F8CC /* main.m */; };
+		E3D4B0C819F718CF0077F8CC /* VisionDefectSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D4B0BC19F718CF0077F8CC /* VisionDefectSimulation.m */; };
+		E3D4B0CA19F718CF0077F8CC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3D4B0BF19F718CF0077F8CC /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E307089619D6494D00A87C03 /* VisionPreviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionPreviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E30708B919D8DBB000A87C03 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		E30708E519D9049F00A87C03 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		E31739AF19F9DA3C00615710 /* VPImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageScrollView.h; sourceTree = "<group>"; };
+		E31739B019F9DA3C00615710 /* VPImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageScrollView.m; sourceTree = "<group>"; };
+		E35A676F19F71AA100412A12 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		E35A677119F71CFA00412A12 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		E35A677319F72BA600412A12 /* ScrollViewWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewWorkaround.h; sourceTree = "<group>"; };
+		E35A677419F72BA600412A12 /* ScrollViewWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewWorkaround.m; sourceTree = "<group>"; };
+		E3D4B0AF19F718CF0077F8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E3D4B0B019F718CF0077F8CC /* VPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPAppDelegate.h; sourceTree = "<group>"; };
+		E3D4B0B119F718CF0077F8CC /* VPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPAppDelegate.m; sourceTree = "<group>"; };
+		E3D4B0B219F718CF0077F8CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E3D4B0B319F718CF0077F8CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D4B0B419F718CF0077F8CC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3D4B0BB19F718CF0077F8CC /* VisionDefectSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionDefectSimulation.h; sourceTree = "<group>"; };
+		E3D4B0BC19F718CF0077F8CC /* VisionDefectSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionDefectSimulation.m; sourceTree = "<group>"; };
+		E3D4B0BE19F718CF0077F8CC /* ColorBlindViewerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorBlindViewerTests.m; sourceTree = "<group>"; };
+		E3D4B0BF19F718CF0077F8CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E307089319D6494D00A87C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E30708E619D9049F00A87C03 /* CoreServices.framework in Frameworks */,
+				E30708BA19D8DBB000A87C03 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E307088D19D6494D00A87C03 = {
+			isa = PBXGroup;
+			children = (
+				E30708E519D9049F00A87C03 /* CoreServices.framework */,
+				E30708B919D8DBB000A87C03 /* Quartz.framework */,
+				E3D4B0AD19F718CF0077F8CC /* VisionPreviewer */,
+				E3D4B0BD19F718CF0077F8CC /* VisionPreviewerTests */,
+				E307089719D6494D00A87C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E307089719D6494D00A87C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E307089619D6494D00A87C03 /* VisionPreviewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B3369C19F88B8100C9A20B /* Other Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4B0BB19F718CF0077F8CC /* VisionDefectSimulation.h */,
+				E3D4B0BC19F718CF0077F8CC /* VisionDefectSimulation.m */,
+			);
+			name = "Other Resources";
+			sourceTree = "<group>";
+		};
+		E3D4B0AD19F718CF0077F8CC /* VisionPreviewer */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4B0AE19F718CF0077F8CC /* MainMenu.xib */,
+				E3D4B0B019F718CF0077F8CC /* VPAppDelegate.h */,
+				E3D4B0B119F718CF0077F8CC /* VPAppDelegate.m */,
+				E31739AF19F9DA3C00615710 /* VPImageScrollView.h */,
+				E31739B019F9DA3C00615710 /* VPImageScrollView.m */,
+				E35A677319F72BA600412A12 /* ScrollViewWorkaround.h */,
+				E35A677419F72BA600412A12 /* ScrollViewWorkaround.m */,
+				E3D4B0B219F718CF0077F8CC /* Images.xcassets */,
+				E35A677119F71CFA00412A12 /* Resources */,
+				E3D4B0B319F718CF0077F8CC /* Info.plist */,
+				E3D4B0B419F718CF0077F8CC /* main.m */,
+				E3B3369C19F88B8100C9A20B /* Other Resources */,
+			);
+			path = VisionPreviewer;
+			sourceTree = "<group>";
+		};
+		E3D4B0BD19F718CF0077F8CC /* VisionPreviewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3D4B0BE19F718CF0077F8CC /* ColorBlindViewerTests.m */,
+				E3D4B0BF19F718CF0077F8CC /* Info.plist */,
+				E35A676F19F71AA100412A12 /* Test.m */,
+			);
+			path = VisionPreviewerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E307089519D6494D00A87C03 /* VisionPreviewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E30708B319D6494E00A87C03 /* Build configuration list for PBXNativeTarget "VisionPreviewer" */;
+			buildPhases = (
+				E307089219D6494D00A87C03 /* Sources */,
+				E307089319D6494D00A87C03 /* Frameworks */,
+				E307089419D6494D00A87C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionPreviewer;
+			productName = ColorBlindViewer;
+			productReference = E307089619D6494D00A87C03 /* VisionPreviewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E307088E19D6494D00A87C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Anton Legoo";
+				TargetAttributes = {
+					E307089519D6494D00A87C03 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E307089119D6494D00A87C03 /* Build configuration list for PBXProject "VisionPreviewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E307088D19D6494D00A87C03;
+			productRefGroup = E307089719D6494D00A87C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E307089519D6494D00A87C03 /* VisionPreviewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E307089419D6494D00A87C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D4B0C019F718CF0077F8CC /* MainMenu.xib in Resources */,
+				E3D4B0C219F718CF0077F8CC /* Images.xcassets in Resources */,
+				E3D4B0CA19F718CF0077F8CC /* Info.plist in Resources */,
+				E35A677219F71CFA00412A12 /* Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E307089219D6494D00A87C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D4B0C419F718CF0077F8CC /* main.m in Sources */,
+				E3D4B0C819F718CF0077F8CC /* VisionDefectSimulation.m in Sources */,
+				E3D4B0C119F718CF0077F8CC /* VPAppDelegate.m in Sources */,
+				E31739B119F9DA3C00615710 /* VPImageScrollView.m in Sources */,
+				E35A677519F72BA600412A12 /* ScrollViewWorkaround.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3D4B0AE19F718CF0077F8CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3D4B0AF19F718CF0077F8CC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E30708B119D6494E00A87C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E30708B219D6494E00A87C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E30708B419D6494E00A87C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisionPreviewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = VisionPreviewer;
+			};
+			name = Debug;
+		};
+		E30708B519D6494E00A87C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = VisionPreviewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = VisionPreviewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E307089119D6494D00A87C03 /* Build configuration list for PBXProject "VisionPreviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30708B119D6494E00A87C03 /* Debug */,
+				E30708B219D6494E00A87C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E30708B319D6494E00A87C03 /* Build configuration list for PBXNativeTarget "VisionPreviewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E30708B419D6494E00A87C03 /* Debug */,
+				E30708B519D6494E00A87C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E307088E19D6494D00A87C03 /* Project object */;
+}
