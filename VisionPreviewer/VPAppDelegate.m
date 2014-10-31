@@ -6,19 +6,12 @@
 //  Copyright (c) 2014 Anton Legoo. All rights reserved.
 //
 
-
-// TODO: Create app icon
-
-// TODO: Add prompt to "drag and drop" on IKImageView
-
-
-
 // TODO: Handle "recently opened" in menu
-// TODO: Handle opening and drag-n-drop the same way Preview does: only d-n-d to app icon, opens new window
+// TODO: Handle opening and drag-n-drop the same way Preview does: d-n-d to app icon opens new window
 
 // TODO: Image Mode dropdown in menu doesn't populate until user clicks. Is problematic in keeping sync with Vision menu selection
 
-// TODO: Add VisualDefect as git submodule?
+// TODO: Add VisualDefectSimulation as git submodule?
 // TODO: Add "Next / Previous Vision Type" to Vision Menu, with key shortcuts
 
 // TODO: All Error handling, presenting it to the user where helpful
@@ -68,7 +61,11 @@ static const NSOrderedSet * filters;
                                                   @(VisionDefectNone),
                                                   @(VisionDefectDeuteranopia),
                                                   @(VisionDefectProtanopia),
-                                                  @(VisionDefectTritanopia)
+                                                  @(VisionDefectTritanopia),
+                                                  @(VisionDefectProtanomaly),
+                                                  @(VisionDefectDeuteranomaly),
+                                                  @(VisionDefectTritanomaly),
+                                                  @(VisionDefectPresbyopia)
                                                   ]];
     
     // Set the default VFType
@@ -163,9 +160,10 @@ static const NSOrderedSet * filters;
                                            localization:nil];
     [toolBarItemZoomOut setImage:[[NSImage alloc] initByReferencingURL:toolBarItemZoomOutImage]];
     
-    // Open test image
-    NSURL * testImageURL = [mb URLForResource:@"test-image" withExtension:@"png" subdirectory:@"Resources/images/" localization:nil];
+    // Open default image
+    NSURL * testImageURL = [mb URLForResource:@"default-image" withExtension:@"png" subdirectory:@"Resources/images/" localization:nil];
     [self loadFileAtURL:testImageURL];
+    [self zoomToActualSize];
     
     // Correct scrollview
     [[imageView enclosingScrollView] reflectScrolledClipView: [[imageView enclosingScrollView] contentView]];
