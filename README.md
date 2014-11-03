@@ -1,9 +1,9 @@
 VisionPreviewer
 ===============
 
-An OSX Preview-style image viewer that simulates various vision deficiencies associated with color blindness.
+VisionPreviewer is an OSX "Preview.app" style image viewer that simulates various vision deficiencies associated with color blindness.
 
-The primary use case of VisionPreviewer is to open an existing image file, preview how the image would look to person with a vision deficiency, and then export that preview as a new image.
+The primary use case of VisionPreviewer is to open an existing image file, preview how the image would look to a person with a vision deficiency, and then export that preview as a new image.
 
 ![Screenshot of VisionPreviewer's User Interface](screenshot.jpg)
 
